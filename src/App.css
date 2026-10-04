@@ -1,0 +1,55 @@
+/* Custom Styles for MarketSoft SPA */
+
+:root {
+  --primary-bg-gradient: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  --accent-hover-color: #0d6efd;
+  --card-border-radius: 12px;
+  --transition-speed: 0.25s;
+}
+
+body {
+  background: var(--primary-bg-gradient);
+  min-height: 100vh;
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  color: #212529;
+}
+
+.nav-link {
+  transition: color var(--transition-speed) ease, opacity var(--transition-speed) ease;
+}
+
+.nav-link:hover {
+  opacity: 0.85;
+}
+
+.card {
+  border: none !important;
+  border-radius: var(--card-border-radius) !important;
+  transition: transform var(--transition-speed) ease, box-shadow var(--transition-speed) ease;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+}
+
+.table {
+  background-color: #ffffff;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.table th {
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+.btn {
+  border-radius: 6px;
+  transition: all var(--transition-speed) ease;
+}
+
+.badge {
+  font-weight: 500;
+  letter-spacing: 0.01em;
+}

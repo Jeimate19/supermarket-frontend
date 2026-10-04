@@ -1,0 +1,27 @@
+/* Custom Global Styles for MarketSoft Frontend */
+
+:root {
+  --font-main: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  --font-code: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-main);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f8f9fa;
+}
+
+code {
+  font-family: var(--font-code);
+}
+
+/* Ajustes globales para imágenes y elementos responsivos */
+img,
+svg {
+  vertical-align: middle;
+}
